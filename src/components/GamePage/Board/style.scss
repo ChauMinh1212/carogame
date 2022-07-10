@@ -1,8 +1,9 @@
 .board {
-  width: 690px;
-  height: 690px;
+  width: 100vh;
+  height: 100vh;
   display: grid;
   grid-template-columns: repeat(20, 1fr);
   grid-template-rows: repeat(20, 1fr);
   margin: 0 auto;
+  padding: 20px 0;
 }
