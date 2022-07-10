@@ -1,0 +1,25 @@
+.game {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  &-board {
+    width: 80%;
+  }
+  &-info {
+    width: 20%;
+    color: #fff;
+    padding-left: 10px;
+    font-size: 30px;
+    button {
+      padding: 10px;
+      font-size: 20px;
+    }
+  }
+}
+
+.mb30 {
+  margin-bottom: 30px !important;
+}
+.mb20 {
+  margin-bottom: 20px !important;
+}
